@@ -1,0 +1,26 @@
+ h1 {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+ .game-container {
+   margin: 25px auto;
+   width: 500px;
+   height: auto;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 15px;
+   padding-top: 10px;
+ }
+
+ @media (max-width: 599px) {
+   .game-container {
+     width: 300px;
+     padding: 0;
+    }
+ }

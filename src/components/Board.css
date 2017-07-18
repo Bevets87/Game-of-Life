@@ -1,0 +1,24 @@
+.board {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.board div {
+   float: left;
+ }
+
+.dead {
+  background: rgb(204,122,111)}
+
+.alive {
+  background: rgb(97,218,251)}
+
+@media (max-width: 599px) {
+  .board {
+    width: 300px;
+    height: 300px;
+  }
+}

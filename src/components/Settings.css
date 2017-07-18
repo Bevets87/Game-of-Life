@@ -1,0 +1,12 @@
+.settings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+button {
+  background-color: rgb(204,122,111);
+}
