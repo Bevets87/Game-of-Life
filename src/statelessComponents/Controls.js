@@ -27,7 +27,7 @@ class Controls extends Component {
           <div className="col-6 col-sm-2 col-md-2">
             <SizeSelection changeSize={changeSize} size={size} shuffle={shuffle}/>
           </div>
-          <div className="col-6 col-sm-2 col-md-2">
+          <div className="col-6 col-sm-2 col-ms-2">
             <SpeedSelection changeSpeed={changeSpeed} speed={speed}/>
           </div>
         </div>

@@ -1,7 +1,8 @@
 #speed-selection {
   border: none;
+  border-radius: 0;
   font-family: 'Orbitron', sans-serif;
   background-color: rgb(21,171,195);
   cursor: pointer;
-  height: 54px;
+  height: 54.5px;
 }
