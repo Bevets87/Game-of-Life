@@ -1,7 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-body {
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: rgba(54,149,142,0.3);
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: rgb(21,171,195);
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  background: rgb(21,171,195);
+  cursor: pointer;
+}
+select {
+  outline: none;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  background: rgb(21,171,195);
+  cursor: pointer;
+}
+button:active {
+  background: rgba(21,171,195,0.5);
 }

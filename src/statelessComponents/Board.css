@@ -1,0 +1,16 @@
+table {
+  margin: 0 auto;
+}
+.small {
+  width: 300px;
+  height: 300px;
+
+}
+.medium {
+  width: 600px;
+  height: 400px;
+}
+.large {
+  width: 900px;
+  height: 500px;
+}

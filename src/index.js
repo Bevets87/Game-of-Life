@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import App from './statelessComponents/App';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-
 
 import './index.css';
 
