@@ -1,30 +1,13 @@
-section {
-  margin-top: 10px;
-  text-align: center;
-}
-button {
-  margin: 10px 15px;
-  font-size: 50px;
-}
-select {
-  margin: 10px 10px;
-  font-size: 25px;
-}
-.top-row {
-  display: block;
-  margin-top: 10px;
-}
-.bottom-row {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-label {
-  font-size: 20px;
+.container {
+  margin-top: 20px;
 }
 
-@media(max-width: 600px) {
-  button {
-    margin: 10px 10px;
-  }
+button {
+  outline: none;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  background: rgb(21,171,195);
+  cursor: pointer;
+  font-size: 35px !important;
+  width: 100% !important;
 }

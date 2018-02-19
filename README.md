@@ -1,5 +1,5 @@
 # Game of Life
-[https://bevets87.github.io/Game-of-Life/](https://bevets87.github.io/Game-of-Life/)
+[]()
 
 ### User Stories:
 

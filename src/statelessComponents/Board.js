@@ -8,7 +8,7 @@ class Board extends Component {
   render () {
     const { cells, toggleAlive, size } = this.props
     return (
-      <table className={size}>
+      <table className={`${size}`}>
         <tbody>
         {cells.map((row,r) =>
           <tr key={r}>

@@ -2,6 +2,7 @@ td {
   width: 15px;
   height: 15px;
   cursor: pointer;
+  border: 1px solid black;
 }
 .dead {
   background: rgb(21,171,195);

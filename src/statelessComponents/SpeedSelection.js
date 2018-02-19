@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './SpeedSelection.css'
+
 class SpeedSelection extends Component {
   handleOnChange = e => {
     e.preventDefault()
@@ -8,13 +10,12 @@ class SpeedSelection extends Component {
   render () {
     let { speed } = this.props
     return (
-      <label>
-        <select className="control" onChange={this.handleOnChange} value={speed}>
+      <div className="input-group">
+        <select id="speed-selection" className="custom-select" onChange={this.handleOnChange} value={speed}>
           <option value="slow">slow</option>
           <option value="fast">fast</option>
         </select>
-        <span>speed</span>
-      </label>
+      </div>
     )
   }
 }

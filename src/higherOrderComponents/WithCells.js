@@ -21,7 +21,7 @@ const WithCells = WrappedComponent => {
     componentWillMount = () => {
       let { width } = window.screen
       if (width < 600) { this.buildCells('small')}
-      else if (width < 1600) { this.buildCells('medium') }
+      else if (width < 1200) { this.buildCells('medium') }
       else { this.buildCells('large') }
       this.randomlySetCellsAlive()
     }

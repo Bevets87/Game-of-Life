@@ -8,22 +8,5 @@ html, body {
   background: black;
   color: rgb(21,171,195);
   font-family: 'Orbitron', sans-serif;
-}
-
-button {
-  outline: none;
-  border: none;
-  font-family: 'Orbitron', sans-serif;
-  background: rgb(21,171,195);
-  cursor: pointer;
-}
-select {
-  outline: none;
-  border: none;
-  font-family: 'Orbitron', sans-serif;
-  background: rgb(21,171,195);
-  cursor: pointer;
-}
-button:active {
-  background: rgba(21,171,195,0.5);
+  text-align: center;
 }
