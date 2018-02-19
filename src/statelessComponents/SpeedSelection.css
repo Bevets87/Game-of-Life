@@ -4,5 +4,6 @@
   font-family: 'Orbitron', sans-serif;
   background-color: rgb(21,171,195);
   cursor: pointer;
-  height: 54.5px;
+  font-size: 25px;
+  height: auto;
 }

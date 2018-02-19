@@ -11,3 +11,8 @@ button {
   font-size: 35px !important;
   width: 100% !important;
 }
+
+[class*="col"] {
+  background-color: rgb(21,171,195);
+
+}
